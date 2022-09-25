@@ -91,7 +91,7 @@ public class IntLinkedList {
     
     public void deleteAtIndex(int index) {
         if (index < 0 || index >= size) {
-            return;
+            throw new NoSuchElementException();
         }
         Node node = getNode(index);
         node.prev.next = node.next;
