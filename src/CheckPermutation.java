@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CheckPermutation {
-    public boolean CheckPermutation(String s1, String s2) {
+    public boolean checkPermutation(String s1, String s2) {
         if (s1.length() != s2.length()) {
             return false;
         }
