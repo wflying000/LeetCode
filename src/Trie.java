@@ -61,9 +61,19 @@ public class Trie {
 
     public static void main(String[] args) {
         Trie tree = new Trie();
-        String word = "apple";
-        tree.insert(word);
-        System.out.println(tree.search(word));
-        System.out.println(tree.startsWith("app"));
+
+        tree.insert("tea");
+        tree.insert("test");
+        
+        System.out.println(tree.search("tea")); // true
+        System.out.println(tree.search("test")); // true
+        
+        System.out.println(tree.startsWith("tes")); // true
+        System.out.println(tree.search("tes")); // false
+
+        tree.insert("tes");
+        System.out.println(tree.startsWith("tes")); // true
+        System.out.println(tree.search("tes")); // true
+
     }
 }
