@@ -17,7 +17,7 @@ public class Offer33 {
             j++;
         }
         // 先判断postoder[left .. right]是否满足左右中的结构，(左 < 中，右 > 中)
-        // 如果满足左右中的结构，则可以判断左子树和右子树的边界，然后递归判断左子树和右子树是否为后序遍历
+        // 如果满足左右中的结构，则可以确定左子树和右子树的边界，然后递归判断左子树和右子树是否为后序遍历
         return (j == right) && judge(postorder, left, i - 1) && judge(postorder, i, j - 1);
     }
 
