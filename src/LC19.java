@@ -1,3 +1,5 @@
+import common.ListNode;
+
 public class LC19 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummy = new ListNode();

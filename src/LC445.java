@@ -1,3 +1,5 @@
+import common.ListNode;
+
 public class LC445 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode h1 = reverseList(l1);

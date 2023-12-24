@@ -1,3 +1,5 @@
+import common.ListNode;
+
 public class LC142 {
     public ListNode detectCycle(ListNode head) {
         ListNode fast = head;

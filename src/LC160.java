@@ -1,3 +1,6 @@
+import common.ListNode;
+
+
 public class LC160 {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) {

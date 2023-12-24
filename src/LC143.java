@@ -1,3 +1,4 @@
+import common.ListNode;
 public class LC143 {
     public static void reorderList(ListNode head) {
         if (head == null) {

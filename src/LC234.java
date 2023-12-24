@@ -1,3 +1,5 @@
+import common.ListNode;
+
 public class LC234 {
     public boolean isPalindrome(ListNode head) {
         ListNode fast = head;

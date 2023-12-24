@@ -1,3 +1,5 @@
+import common.ListNode;
+
 public class LC25 {
     public static ListNode reverseKGroup(ListNode head, int k) {
         if (head == null || k <= 1) {

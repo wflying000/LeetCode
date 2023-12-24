@@ -1,3 +1,5 @@
+import common.ListNode;
+
 public class LC206 {
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {

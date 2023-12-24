@@ -1,15 +1,17 @@
-class Node {
-    public int val;
-    public Node prev;
-    public Node next;
-    public Node child;
 
-    public Node(int val) {
-        this.val = val;
-    }
-}
 
 public class LC430 {
+    public static class Node {
+        public int val;
+        public Node prev;
+        public Node next;
+        public Node child;
+
+        public Node(int val) {
+            this.val = val;
+        }
+    }
+
     public static Node flatten(Node head) {
         if (head == null) {
             return null;
